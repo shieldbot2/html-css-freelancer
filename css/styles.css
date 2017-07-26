@@ -12,8 +12,61 @@
 
 html {
    box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+
 }
 
 *, *:before, *:after {
    box-sizing: inherit;
+}
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+main{
+  width: 940px;
+  margin: auto;
+}
+
+.first {
+  display: flex;
+}
+/*.business {
+  display: flex;
+}*/
+
+
+.economic{
+  display: flex;
+}
+/*.eco{
+  width:30px;
+}
+.mac{
+  display: flex;
+}*/
+
+
+.team2 {
+  display: flex;
+}
+.head {
+  display: flex;
+}
+.logo {
+ border-radius: 50%;
+}
+
+footer {
+  width: 940px;
+  margin: auto;
+  text-align: right;
+  border-top:1px solid;
+  color: lightgrey;
+  display: flex;
+}
+.c{
+  text-align: right;
+  display: flex;
+  align-self: flex-end;
 }
