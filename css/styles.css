@@ -13,7 +13,6 @@
 html {
    box-sizing: border-box;
    font-family: 'Open Sans', sans-serif;
-
 }
 
 *, *:before, *:after {
@@ -21,6 +20,18 @@ html {
 }
 h1, h2, h3{
   font-family: 'Montserrat', sans-serif;
+}
+/*.centre{
+  position: relative;
+    left: 100px;
+    top: 300px;*/
+header {
+  height: 1000px;
+  width: 100%;
+  padding-left: calc((100% - 940px) / 2);
+  padding-right: calc((100% - 940px) / 2);
+  background-image: url(../images/header.jpg);
+  background-size: cover;
 }
 
 main{
@@ -46,7 +57,6 @@ main{
   display: flex;
 }*/
 
-
 .team2 {
   display: flex;
 }
@@ -60,13 +70,13 @@ main{
 footer {
   width: 940px;
   margin: auto;
-  text-align: right;
   border-top:1px solid;
   color: lightgrey;
   display: flex;
+  justify-content: space-between;
 }
-.c{
+/*.c{
   text-align: right;
   display: flex;
   align-self: flex-end;
-}
+}*/
