@@ -21,10 +21,16 @@ html {
 h1, h2, h3{
   font-family: 'Montserrat', sans-serif;
 }
-/*.centre{
+
+body {
   position: relative;
-    left: 100px;
-    top: 300px;*/
+  top: -20px;
+}
+.center {
+  position: relative;
+  left: 1000px;
+  top: 200px;
+}
 header {
   height: 1000px;
   width: 100%;
@@ -32,6 +38,24 @@ header {
   padding-right: calc((100% - 940px) / 2);
   background-image: url(../images/header.jpg);
   background-size: cover;
+}
+nav {
+  position: absolute;
+  top: 30px;
+  right: calc((100% - 940px)/2);
+}
+
+header h1 {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  height:30px;
+  width:100px;
+  padding: 10px;
+  background: Crimson;
+  color: white;
+  margin: 20px;
 }
 
 main{
