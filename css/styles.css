@@ -18,8 +18,12 @@ html {
 *, *:before, *:after {
    box-sizing: inherit;
 }
-h1, h2, h3{
+h1 {
   font-family: 'Montserrat', sans-serif;
+}
+h2, h3, h4{
+  font-family: 'Montserrat', sans-serif;
+  color: #465065;
 }
 
 body {
@@ -31,6 +35,16 @@ body {
   left: 1000px;
   top: 200px;
 }
+.center2 {
+  color: #465065;;
+}
+.centre3 {
+  position: relative;
+  left: 30px;
+  top: -30px;
+  color: #465065;
+}
+
 header {
   height: 1000px;
   width: 100%;
@@ -44,42 +58,73 @@ nav {
   top: 30px;
   right: calc((100% - 940px)/2);
 }
+.twit {
+  color: #f0454c;
+}
 
-header h1 {
+a {
+  padding: 16px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #465065;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+header h2 {
   display: flex;
   flex-direction: column;
+  font-size: 45px;
+  color: #465065;
+  margin-top: 280px;
+  margin-left: 26px;
 }
-h2 {
-  height:30px;
-  width:100px;
-  padding: 10px;
-  background: Crimson;
+h1 {
+  height:70px;
+  width:190px;
+  padding: 15px;
+  background: #f0454c;;
   color: white;
   margin: 20px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+.red {
+  padding: 2px;
+  background: #f0454c;;
+  color: white;
+  height: 60px;
+  width: 150px;
+  border-radius: 10px;
+  margin-left: 26px;
+  font-family: 'Montserrat', sans-serif;
+}
+.zebi {
+  display: block;
+}
+p {
+  color: #c2c2a3;
 }
 
-main{
+main {
   width: 940px;
   margin: auto;
 }
 
 .first {
   display: flex;
+  justify-content: space-around;
 }
-/*.business {
-  display: flex;
-}*/
+
+.business {
+  width: calc((940px - (40px * 2)) / 3);
+  margin-right: 40px;
+}
 
 
 .economic{
   display: flex;
 }
-/*.eco{
-  width:30px;
-}
-.mac{
-  display: flex;
-}*/
 
 .team2 {
   display: flex;
@@ -90,17 +135,43 @@ main{
 .logo {
  border-radius: 50%;
 }
+.greyfont {
+  color: #465065;
+}
 
 footer {
   width: 940px;
   margin: auto;
   border-top:1px solid;
-  color: lightgrey;
+  color: #c2c2a3;;
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
 }
-/*.c{
-  text-align: right;
-  display: flex;
-  align-self: flex-end;
-}*/
+.p {
+  font-size: 38px;
+}
+.ourteam {
+  font-size: 30px;
+}
+h2:before, h3:before {
+ content:"";
+ display: block;
+ width: 56px;
+ height: 7px;
+ background-color: #f0454c;
+ margin-bottom: 20px;
+ margin-top: 10px;
+}
+.red2 {
+  color: #f0454c;
+}
+.economic a {
+  color: #f0454c;
+}
+.first a {
+color: #f0454c;
+}
+.b {
+  margin: 20px;
+}
